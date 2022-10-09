@@ -1,14 +1,14 @@
 import './App.css';
-import NavHero from './components/Nav-Hero';
-import Main from './components/Main';
+import Nav from './components/Nav';
+
 
 
 function App() {
   return (
     <div className="App">
-      <NavHero />
-      <Main />
-    </div>
+      <Nav />
+    
+      </div>
   );
 }
 
