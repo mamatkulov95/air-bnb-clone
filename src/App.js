@@ -1,6 +1,4 @@
 import "./App.css";
-import Nav from "./components/Nav";
-import Hero from "./components/Hero";
 import Card from "./components/Card";
 import Katie from "./images/profil-photo.png";
 import wedding from "./images/wedding-photography 1.png"
@@ -9,8 +7,7 @@ import bike from "./images/mountain-bike 1.png"
 function App() {
   return (
     <div className="App">
-      <Nav />
-      <Hero />
+     
       <div className="cards">
         <Card
           img={Katie}
