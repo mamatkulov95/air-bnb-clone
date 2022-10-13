@@ -4,11 +4,6 @@
   padding: 0;
 }
 
-body {
-  background-image: url(https://wallpapercave.com/dwp1x/wp4923980.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 .App {
   width: 550px;
@@ -16,38 +11,28 @@ body {
   background: #E5E5E5;
 }
 
-nav {
-  padding: 20px 30px;
-  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
-}
 
-.airbnb-logo {
-  width: 90px;
-  height: 30px;
-}
-
-section {
-  padding: 50px;
-}
 
 .hero {
   display: flex;
   flex-direction: column;
+  padding: 50px;
+
 }
 
-.hero--photo {
+.hero-photo {
   max-width: 400px;
   align-self: center;
   margin-bottom: 30px;
 }
 
-.hero--header {
+.hero-header {
   margin-bottom: 16px;
   font-family: 'Poppins';
   font-size: 36px;
 }
 
-.hero--text {
+.hero-text {
   font-family: 'Poppins';
   font-size: 16px;
   max-width: 60%;
