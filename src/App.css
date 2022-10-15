@@ -6,7 +6,8 @@
 
 
 .App {
-  width: 550px;
+  width: 100%;
+  height: 100vh;
   margin: 0 auto;
   background: #E5E5E5;
 }
@@ -16,6 +17,7 @@
 .hero {
   display: flex;
   flex-direction: column;
+  text-align: center;
   padding: 50px;
 
 }
@@ -35,5 +37,4 @@
 .hero-text {
   font-family: 'Poppins';
   font-size: 16px;
-  max-width: 60%;
 }
