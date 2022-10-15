@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Card(props) {
   return (
-    <div className="card">
+    <div className="card"> 
       <img className="card-image" src={props.img} />
       <div className="card-stats">
         <img className="card-star" src={require("../images/star.png")} />

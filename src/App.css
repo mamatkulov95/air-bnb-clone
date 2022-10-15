@@ -5,12 +5,18 @@
 }
 
 .App {
-  width: 550px;
-  margin: 0 auto;
+  width: 100%;
+  height: 100vh;
   background: #E5E5E5;
 }
 
 
+.cards {
+  display: flex;
+  justify-content: center;
+  padding: 0 35px 40px;
+  gap: 15px;
+}
 .card {
   display: flex;
   flex-direction: column;
@@ -18,6 +24,8 @@
   width: 190px;
   font-size: 12px;
 }
+
+
 
 .card-image {
   width: 100%;
@@ -48,8 +56,3 @@
   color: #918E9B;
 }
 
-.cards {
-  display: flex;
-  padding: 0 35px 40px;
-  gap: 15px;
-}
