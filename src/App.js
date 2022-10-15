@@ -1,13 +1,14 @@
+
 import "./App.css";
 import Card from "./components/Card";
 import Katie from "./images/profil-photo.png";
 import wedding from "./images/wedding-photography 1.png"
 import bike from "./images/mountain-bike 1.png"
 
+
 function App() {
   return (
     <div className="App">
-     
       <div className="cards">
         <Card
           img={Katie}
@@ -35,7 +36,8 @@ function App() {
           author="Group Mountain Biking"
           price={50}
         />
-      </div>
+
+     </div>
     </div>
   );
 }

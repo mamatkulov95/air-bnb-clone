@@ -4,13 +4,12 @@
   padding: 0;
 }
 
-
-
 .App {
   width: 550px;
   margin: 0 auto;
   background: #E5E5E5;
 }
+
 
 .card {
   display: flex;
@@ -46,12 +45,11 @@
 }
 
 .card-rating {
-
   color: #918E9B;
 }
 
-.cards{
+.cards {
   display: flex;
   padding: 0 35px 40px;
-  gap:15px;
+  gap: 15px;
 }
