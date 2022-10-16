@@ -13,6 +13,11 @@
 
 
 
+.navbar{
+  padding: 25px 30px;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.1);
+}
+
 .hero {
   display: flex;
   flex-direction: column;
