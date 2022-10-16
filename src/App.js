@@ -1,7 +1,8 @@
-import "./App.css";
+import './App.css';
+import Nav from './components/Nav'
+import Hero from './components/Hero';
 import Card from "./components/Card";
 import data from "./components/CardDate";
-
 function App() {
   const cards = data.map((item) => {
     return (
@@ -14,6 +15,8 @@ function App() {
 
   return (
     <div className="App">
+      <Nav />
+      <Hero />
       <div className="cards">{cards}</div>
     </div>
   );
