@@ -1,5 +1,7 @@
 import React from "react";
-import GridPhoto from "../images/grid-photo.svg";
+import GridPhoto from "../../images/grid-photo.svg";
+
+import "./Hero.css";
 
 export default function Hero() {
   return (
