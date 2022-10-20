@@ -14,3 +14,42 @@
   font-size: 12px;
   position: relative;
 }
+
+.card-image {
+  width: 100%;
+  max-height: 235px;
+  border-radius: 9px;
+}
+
+.card-stats {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.card-star {
+  height: 14px;
+}
+
+.card-author {
+  font-family: 'Poppins';
+  font-size: 12px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.card-rating {
+  color: #918E9B;
+}
+
+.card-badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+}
